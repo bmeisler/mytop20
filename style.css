@@ -1,0 +1,85 @@
+/*
+Theme Name: appannie
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Bernard Meisler
+Author URI: http://wwww.meisler.net/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+/*@import url("bootstrap/css/bootstrap.min.css");
+*/
+/*@import url("bootstrap-full/dist/css/bootstrap.min.css");*/
+@import url("library/css/bootstrap.min.css");
+
+@media (min-width: 979px) {
+	body {
+		padding-top: 60px;
+		padding-bottom: 40px;
+		font-family: @serif;
+		font-size: 140%;  
+		line-height: 1.5;
+		background-image: url("img/top.movies.background.jpg");
+		background-color: #fff;
+	}
+	.container {
+    /*-moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px#888;
+    box-shadow: 0 0 5px 5px #888;*/
+    width: 959px; 
+    background-color: #eeeeee; 
+    margin: auto;
+    padding:30px;
+    }
+}
+.container{
+	padding:30px;
+}
+footer{
+	margin-left:-10px;
+}
+.my-new-list{
+	margin-left:0px;
+	width:98%;
+	padding: 0px;
+}
+
+figure{
+	width:98%;
+    height:auto;
+	padding-right:5px;
+    text-indent:0 !important;
+    margin-bottom:12px;
+    
+              
+}
+.movie-box{
+	border:gray;
+	background-color: white;
+	width:98%;
+	max-width:620px;
+	border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    margin-left:0px;
+}
+
+    .figure-medium-left{
+		    width:98%;
+		    max-width: 500px;
+		    /*float:left;*/
+		    clear: both;
+		    
+		figcaption{
+			width:66.7%;
+		}
+	}
+	.figure-medium-left img{
+		    	width:100%;
+				height:auto;
+		} 
